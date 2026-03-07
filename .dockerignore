@@ -1,0 +1,14 @@
+__pycache__
+*.pyc
+.venv
+.env
+.git
+.github
+*.md
+.pytest_cache
+.mypy_cache
+.ruff_cache
+cache/
+*.pt
+*.pth
+*.ckpt

@@ -1,0 +1,17 @@
+{
+  "risk_tolerance": "aggressive",
+  "default_universe": "us_mega_cap",
+  "currency": "USD",
+  "watchlist": [
+    "AAPL",
+    "TSLA",
+    "NVDA",
+    "GOOGL",
+    "MSFT",
+    "AMZN"
+  ],
+  "notifications": true,
+  "theme": "dark",
+  "auto_refresh": true,
+  "refresh_interval": 30
+}

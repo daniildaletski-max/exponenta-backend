@@ -1,0 +1,56 @@
+[
+  {
+    "ticker": "MSFT",
+    "predicted_direction": "bearish",
+    "predicted_change": -1.12,
+    "confidence": 29.1,
+    "actual_outcome": null,
+    "timestamp": "2026-03-06T07:00:08.302153+00:00",
+    "model_used": "ensemble"
+  },
+  {
+    "ticker": "AMD",
+    "predicted_direction": "bearish",
+    "predicted_change": -2.12,
+    "confidence": 74.1,
+    "actual_outcome": null,
+    "timestamp": "2026-03-06T07:00:22.178169+00:00",
+    "model_used": "ensemble"
+  },
+  {
+    "ticker": "AAPL",
+    "predicted_direction": "bearish",
+    "predicted_change": -2.34,
+    "confidence": 95.0,
+    "actual_outcome": null,
+    "timestamp": "2026-03-06T07:00:22.714869+00:00",
+    "model_used": "ensemble"
+  },
+  {
+    "ticker": "NVDA",
+    "predicted_direction": "bullish",
+    "predicted_change": 2.85,
+    "confidence": 69.6,
+    "actual_outcome": null,
+    "timestamp": "2026-03-06T08:00:43.169522+00:00",
+    "model_used": "ensemble"
+  },
+  {
+    "ticker": "AAPL",
+    "predicted_direction": "bearish",
+    "predicted_change": -2.34,
+    "confidence": 95.0,
+    "actual_outcome": null,
+    "timestamp": "2026-03-06T08:00:45.958911+00:00",
+    "model_used": "ensemble"
+  },
+  {
+    "ticker": "NVDA",
+    "predicted_direction": "bullish",
+    "predicted_change": 2.85,
+    "confidence": 69.6,
+    "actual_outcome": null,
+    "timestamp": "2026-03-06T11:48:52.917685+00:00",
+    "model_used": "ensemble"
+  }
+]

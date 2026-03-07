@@ -1,0 +1,78 @@
+# ── Core ──
+fastapi
+uvicorn[standard]
+gunicorn
+pydantic
+pydantic-settings
+python-dotenv
+
+# ── Auth ──
+python-jose[cryptography]
+passlib[bcrypt]
+bcrypt==4.0.1
+
+# ── HTTP / Network ──
+httpx
+websockets
+
+# ── Data / ML ──
+pandas
+numpy
+scipy
+scikit-learn
+joblib
+
+# ── ML Ensemble (XGBoost, LightGBM, CatBoost) ──
+xgboost
+lightgbm
+catboost
+
+# ── Technical Analysis ──
+ta
+yfinance
+
+# ── Logging ──
+structlog
+
+# ── AI / LLM Providers ──
+langgraph
+langchain-community
+anthropic
+openai
+tiktoken
+
+# ── Market Data ──
+polygon-api-client
+
+# ── Deep Learning (GPU: CUDA / MPS / CPU) ──
+torch
+torchvision
+torchaudio
+
+# ── Portfolio Optimization ──
+pyportfolioopt
+cvxpy
+stable-baselines3
+
+# ── Database (PostgreSQL) ──
+sqlalchemy[asyncio]
+asyncpg
+alembic
+greenlet
+
+# ── Redis ──
+redis[hiredis]
+
+# ── GPU Cloud Providers (optional) ──
+# modal           # pip install modal && modal setup
+# runpod          # pip install runpod
+
+# ── Forecasting Ensemble Models (install separately when GPU available) ──
+# chronos-forecasting     # pip install chronos-forecasting (Amazon Chronos-2)
+# timesfm                 # pip install timesfm (Google TimesFM)
+# lag-llama               # pip install git+https://github.com/time-series-foundation-models/lag-llama
+# gluonts                 # required by Lag-Llama
+
+# ── Deep Learning (optional, for TFT with pytorch-forecasting) ──
+# pytorch-forecasting     # pip install pytorch-forecasting
+# pytorch-lightning       # pip install pytorch-lightning
