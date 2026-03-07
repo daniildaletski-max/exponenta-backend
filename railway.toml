@@ -3,7 +3,7 @@ builder = "DOCKERFILE"
 dockerfilePath = "./Dockerfile"
 
 [deploy]
-startCommand = "uvicorn main:app --host 0.0.0.0 --port $PORT --workers 2 --log-level info"
+# Uses Dockerfile CMD (port 8000)
 healthcheckPath = "/health"
 healthcheckTimeout = 30
 numReplicas = 1
