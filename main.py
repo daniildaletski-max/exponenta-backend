@@ -35,7 +35,7 @@ async def lifespan(app: FastAPI):
     # Startup
     try:
         from db.database import init_db
-        await init_db()
+        await asyncio.wait_for(init_db(), timeout=10)
     except Exception as e:
         logger.warning(f"Database init skipped: {e}")
 
